@@ -7,6 +7,10 @@
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
+# Inherit from proprietary files for miuicamera
+include vendor/xiaomi/munch-miuicamera/products/board.mk
+
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 DEVICE_PATH := device/xiaomi/munch
 
 BUILD_BROKEN_DUP_RULES := true
