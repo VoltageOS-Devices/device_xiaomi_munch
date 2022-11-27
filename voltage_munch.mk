@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2022-23 The Voltage Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,15 +8,18 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Voltage stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-DEVICE_MAINTAINER := madmax7896
+VOLTAGE_BUILD_TYPE := UNOFFICIAL
 
-PRODUCT_NAME := arrow_munch
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 2160
+
+PRODUCT_NAME := voltage_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
