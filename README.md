@@ -1,4 +1,4 @@
-# Unified Device Tree for Xiaomi POCO F4/Redmi K40S
+# Device Tree for Xiaomi POCO F4/Redmi K40S
 
 The POCO F4 (codenamed "munch") is a flagship smartphone from Xiaomi released in June 2022.
 
@@ -26,4 +26,4 @@ It is also known as POCO F4 (globally) and Redmi K40S (China).
 
 ![POCO F4](https://i.imgur.com/8vGvhMe.jpeg)
 
-Copyright (C) 2022 ArrowOS.
+Copyright (C) 2022 VoltageOS.
