@@ -14,7 +14,7 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-VOLTAGE_BUILD_TYPE := UNOFFICIAL
+VOLTAGE_BUILD_TYPE := OFFICIAL
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 2160
